@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "", "",{"version":3,"sources":[],"names":[],"mappings":"","sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  margin: 0;\r\n  min-height: 100vh;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\np {\r\n  margin: 0;\r\n}\r\n\r\n.container {\r\n  width: 500px;\r\n  border: 1px solid #eee;\r\n  border-radius: 3px;\r\n  padding: 20px;\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\nform {\r\n  display: flex;\r\n  margin-bottom: 20px;\r\n}\r\n\r\nbutton {\r\n  background: #2980b9;\r\n  font-weight: bold;\r\n  color: white;\r\n  padding: 5px 15px;\r\n  border: 0;\r\n  border-radius: 5px;\r\n  margin: 0 3px;\r\n  cursor: pointer;\r\n}\r\n\r\nbutton.danger {\r\n  background: #eb2f06;\r\n}\r\n\r\nbutton.primary {\r\n  background: #4a69bd;\r\n}\r\n\r\nbutton.success {\r\n  background: #2ed573;\r\n}\r\n\r\ninput {\r\n  padding: 8px 15px;\r\n  outline: 0;\r\n  border: 1px solid #ddd;\r\n  border-radius: 3px;\r\n}\r\n\r\nform input {\r\n  flex: 1;\r\n  margin-right: 15px;\r\n}\r\n\r\nul {\r\n  padding: 0;\r\n  list-style: none;\r\n}\r\n\r\nli {\r\n  display: flex;\r\n  align-items: center;\r\n  padding: 10px 0px;\r\n}\r\n\r\nli:hover {\r\n  background: lightblue;\r\n  border-radius: 5px;\r\n  padding: 10px 5px 10px 5px;\r\n}\r\n\r\nli input {\r\n  flex: 1;\r\n  margin-right: 15px;\r\n}\r\n\r\nli p {\r\n  flex: 1;\r\n}\r\n\r\nli p.done {\r\n  text-decoration: line-through;\r\n}\r\n\r\nli .todo {\r\n  flex: 0 0 20px;\r\n  height: 20px;\r\n  border-radius: 30px;\r\n  margin-right: 15px;\r\n  border: 2px solid #333;\r\n}\r\n\r\nli .todo.done {\r\n  background: #27ae60;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,sBAAsB;AACxB;;AAEA;EACE,SAAS;EACT,iBAAiB;EACjB,aAAa;EACb,uBAAuB;EACvB,mBAAmB;AACrB;;AAEA;EACE,SAAS;AACX;;AAEA;EACE,YAAY;EACZ,sBAAsB;EACtB,kBAAkB;EAClB,aAAa;EACb,aAAa;EACb,sBAAsB;AACxB;;AAEA;EACE,aAAa;EACb,mBAAmB;AACrB;;AAEA;EACE,mBAAmB;EACnB,iBAAiB;EACjB,YAAY;EACZ,iBAAiB;EACjB,SAAS;EACT,kBAAkB;EAClB,aAAa;EACb,eAAe;AACjB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,iBAAiB;EACjB,UAAU;EACV,sBAAsB;EACtB,kBAAkB;AACpB;;AAEA;EACE,OAAO;EACP,kBAAkB;AACpB;;AAEA;EACE,UAAU;EACV,gBAAgB;AAClB;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,iBAAiB;AACnB;;AAEA;EACE,qBAAqB;EACrB,kBAAkB;EAClB,0BAA0B;AAC5B;;AAEA;EACE,OAAO;EACP,kBAAkB;AACpB;;AAEA;EACE,OAAO;AACT;;AAEA;EACE,6BAA6B;AAC/B;;AAEA;EACE,cAAc;EACd,YAAY;EACZ,mBAAmB;EACnB,kBAAkB;EAClB,sBAAsB;AACxB;;AAEA;EACE,mBAAmB;AACrB","sourcesContent":["* {\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  margin: 0;\r\n  min-height: 100vh;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\np {\r\n  margin: 0;\r\n}\r\n\r\n.container {\r\n  width: 500px;\r\n  border: 1px solid #eee;\r\n  border-radius: 3px;\r\n  padding: 20px;\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\nform {\r\n  display: flex;\r\n  margin-bottom: 20px;\r\n}\r\n\r\nbutton {\r\n  background: #2980b9;\r\n  font-weight: bold;\r\n  color: white;\r\n  padding: 5px 15px;\r\n  border: 0;\r\n  border-radius: 5px;\r\n  margin: 0 3px;\r\n  cursor: pointer;\r\n}\r\n\r\nbutton.danger {\r\n  background: #eb2f06;\r\n}\r\n\r\nbutton.primary {\r\n  background: #4a69bd;\r\n}\r\n\r\nbutton.success {\r\n  background: #2ed573;\r\n}\r\n\r\ninput {\r\n  padding: 8px 15px;\r\n  outline: 0;\r\n  border: 1px solid #ddd;\r\n  border-radius: 3px;\r\n}\r\n\r\nform input {\r\n  flex: 1;\r\n  margin-right: 15px;\r\n}\r\n\r\nul {\r\n  padding: 0;\r\n  list-style: none;\r\n}\r\n\r\nli {\r\n  display: flex;\r\n  align-items: center;\r\n  padding: 10px 0px;\r\n}\r\n\r\nli:hover {\r\n  background: lightblue;\r\n  border-radius: 5px;\r\n  padding: 10px 5px 10px 5px;\r\n}\r\n\r\nli input {\r\n  flex: 1;\r\n  margin-right: 15px;\r\n}\r\n\r\nli p {\r\n  flex: 1;\r\n}\r\n\r\nli p.done {\r\n  text-decoration: line-through;\r\n}\r\n\r\nli .todo {\r\n  flex: 0 0 20px;\r\n  height: 20px;\r\n  border-radius: 30px;\r\n  margin-right: 15px;\r\n  border: 2px solid #333;\r\n}\r\n\r\nli .todo.done {\r\n  background: #27ae60;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -512,7 +512,127 @@ var __webpack_exports__ = {};
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
 
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+
+var ul = document.querySelector("ul");
+var form = document.querySelector("form");
+var input = document.querySelector("form > input");
+form.addEventListener("submit", function (event) {
+  event.preventDefault();
+  var value = input.value;
+  input.value = "";
+  addTodo(value);
+});
+var todos = [{
+  text: "Je suis une todo",
+  done: false,
+  editMode: false
+}, {
+  text: "Faire du JavaScript",
+  done: true,
+  editMode: false
+}];
+
+var displayTodo = function displayTodo() {
+  var todosNode = todos.map(function (todo, index) {
+    if (todo.editMode) {
+      return createTodoEditElement(todo, index);
+    } else {
+      return createTodoElement(todo, index);
+    }
+  });
+  ul.innerHTML = "";
+  ul.append.apply(ul, _toConsumableArray(todosNode));
+};
+
+var createTodoElement = function createTodoElement(todo, index) {
+  var li = document.createElement("li");
+  var buttonDelete = document.createElement("button");
+  buttonDelete.innerHTML = "Supprimer";
+  buttonDelete.classList.add("danger");
+  var buttonEdit = document.createElement("button");
+  buttonEdit.innerHTML = "Edit";
+  buttonEdit.classList.add("primary");
+  buttonDelete.addEventListener("click", function (event) {
+    event.stopPropagation();
+    deleteTodo(index);
+  });
+  buttonEdit.addEventListener("click", function (event) {
+    event.stopPropagation();
+    toggleEditMode(index);
+  });
+  li.innerHTML = "\n        <span class=\"todo ".concat(todo.done ? "done" : "", "\"></span>\n        <p class=\"").concat(todo.done ? "done" : "", "\">").concat(todo.text, "</p>\n    ");
+  li.addEventListener("click", function (event) {
+    toogleTodo(index);
+  });
+  li.append(buttonEdit, buttonDelete);
+  return li;
+};
+
+var createTodoEditElement = function createTodoEditElement(todo, index) {
+  var li = document.createElement("li");
+  var input = document.createElement("input");
+  input.type = "text";
+  input.value = todo.text;
+  var buttonSave = document.createElement("button");
+  buttonSave.innerHTML = "Save";
+  buttonSave.classList.add("success");
+  var buttonCancel = document.createElement("button");
+  buttonCancel.innerHTML = "Cancel";
+  buttonCancel.classList.add("danger");
+  buttonCancel.addEventListener("click", function (event) {
+    event.stopPropagation();
+    toggleEditMode(index);
+  });
+  buttonSave.addEventListener("click", function (event) {
+    editTodo(index, input);
+  });
+  li.append(input, buttonCancel, buttonSave);
+  return li;
+};
+
+var addTodo = function addTodo(text) {
+  todos.push({
+    text: text,
+    done: false
+  });
+  displayTodo();
+};
+
+var deleteTodo = function deleteTodo(index) {
+  todos.splice(index, 1);
+  displayTodo();
+};
+
+var toogleTodo = function toogleTodo(index) {
+  todos[index].done = !todos[index].done;
+  displayTodo();
+};
+
+var toggleEditMode = function toggleEditMode(index) {
+  todos[index].editMode = !todos[index].editMode;
+  displayTodo();
+};
+
+var editTodo = function editTodo(index, input) {
+  var value = input.value;
+  todos[index].text = value;
+  todos[index].editMode = false;
+  displayTodo();
+};
+
+displayTodo();
 })();
 
 /******/ })()
